@@ -11,7 +11,7 @@ N/A
 
 The contents of the repository are to be used for checking they fulfil the requirements of the Week 4 homework and display the required information in the console
 
-Screenshot of the app screenshot_for_week_4.jpg
+![Screenshot of the app screenshot_for_week_4.jpg](https://paul-codecourse.github.io/Console-Finances/screenshot_for_week_4.jpg)
 
 ## Credits
 
