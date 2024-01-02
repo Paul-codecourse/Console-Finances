@@ -90,24 +90,21 @@ var finances = [
 // get array
 // const myNums = [1,2,3,4,5];
 
-// create a variable or the sum and initialise it 
+// create the variables and assign initial 
 let sum = 0;
 let num = 0;
 let x = 0;
-// assign 
 let totalMonths = (finances.length);
-// calculate the sum using forEach() method
-//(finances[num]['1']).forEach( num => {
-//    sum += num;
-//})
+// loop to calculate total sum
 for (let x=0; x < totalMonths; x++) {
   sum=(sum+(finances[x][1]));
   }
+  // output log to console
 console.log('Financial Analysis')
 console.log('----------------')
 console.log('Total Months: '+totalMonths);
 console.log('Total: $'+sum)
-console.log(finances.length);
 
-console.log(finances['2']['1']);
-console.log(finances[x]['1']);
+//console.log(finances.length);
+// console.log(finances['2']['1']);
+// console.log(finances[x]['1']);
