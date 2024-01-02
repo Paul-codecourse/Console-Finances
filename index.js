@@ -86,3 +86,28 @@ var finances = [
   ['Jan-2017', 138230],
   ['Feb-2017', 671099],
 ];
+
+// get array
+// const myNums = [1,2,3,4,5];
+
+// create a variable or the sum and initialise it 
+let sum = 0;
+let num = 0;
+let x = 0;
+// assign 
+let totalMonths = (finances.length);
+// calculate the sum using forEach() method
+//(finances[num]['1']).forEach( num => {
+//    sum += num;
+//})
+for (let x=0; x < totalMonths; x++) {
+  sum=(sum+(finances[x][1]));
+  }
+console.log('Financial Analysis')
+console.log('----------------')
+console.log('Total Months: '+totalMonths);
+console.log('Total: $'+sum)
+console.log(finances.length);
+
+console.log(finances['2']['1']);
+console.log(finances[x]['1']);
